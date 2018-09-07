@@ -1,0 +1,14 @@
+.user-item {
+  width: 30%;
+  min-width: 270px;
+  a:first-of-type {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ab2d00;
+  }
+  a:last-of-type {
+    font-weight: bold;
+    color: #276cce;
+  }
+}

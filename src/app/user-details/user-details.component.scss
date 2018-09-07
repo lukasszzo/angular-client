@@ -1,0 +1,30 @@
+
+li {
+  width: 30%;
+  p {
+    color: #ab2d00;
+  }
+}
+
+.back-button {
+  background-color: #c9c9e8;
+  border-radius: 8px;
+  margin: 8px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+    color: #111;
+    text-decoration: none;
+    transition: 1s;
+  }
+  a:hover {
+    color: #ab2d00;
+  }
+}
