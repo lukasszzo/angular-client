@@ -1,0 +1,41 @@
+nav {
+  font-family: Montserrat sans-serif;
+  border-radius: 0 8px 0 0;
+  height: 100%;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      transition: 1s;
+      a {
+        color: #ddd;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+      }
+      a:first-of-type {
+        border-radius: 0 8px 0 0;
+      }
+      .activated {
+      background-color: darken(#9b0b01,35%);
+      }
+    }
+    li:hover:first-of-type {
+      border-radius: 0 8px 0 0;
+    }
+    li:hover {
+      background-color: darken(#9b0b01,15%);
+      transition: 1s;
+      span,
+      i {
+        color: #eee;
+        transition: 1s;
+      }
+    }
+    span,
+    i {
+      transition: 1s
+    }
+  }
+}
