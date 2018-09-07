@@ -6,8 +6,17 @@
       </a>
     </li>
     <li>
-      <a routerLink="posts">
+      <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
       <i class="material-icons">message</i>
+       <span>Posts</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="address" [class.activated]="currentUrl == '/address'">
+        <i class="material-icons">
+          chrome_reader_mode
+        </i>
+        <span>Address list</span>
       </a>
     </li>
   </ul>

@@ -1,0 +1,12 @@
+.address-item {
+  width: 20%;
+  min-width: 200px;
+  p:nth-of-type(n) {
+    color: #ab2d00;
+    font-style: italic;
+  }
+  p:nth-of-type(2n) {
+    color: #276cce;
+    font-weight: bold;
+  }
+}

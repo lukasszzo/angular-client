@@ -1,3 +1,11 @@
-<p>
-  address works!
-</p>
+<h1>Address list</h1>
+<p>Data fetched from <a class="source-link" target="_blank" href="https://jsonplaceholder.typicode.com/users">JSONPlaceholder</a></p>
+<ul>
+  <li class="address-item" *ngFor="let address of addressItem$">
+    <p>{{ address.address.street }}</p>
+    <p>{{ address.address.suite }}</p>
+    <p>{{ address.address.zipcode }}</p>
+    <p>{{ address.address.city }}</p>
+    <p>{{ address.phone }}</p>
+  </li>
+</ul>

@@ -1,11 +1,9 @@
 <h1>Users</h1>
-
+<p>Data fetched from <a class="source-link" target="_blank" href="https://jsonplaceholder.typicode.com/users">JSONPlaceholder</a></p>
 <ul>
-  <li *ngFor="let user of users$">
-    <a routerLink="/details/{{user.id}}">{{user.name}} </a>
-    <ul>
-      <li>{{user.email}}</li>
-      <li><a href="http://{{user.website}}">{{user.website}}</a></li>
-    </ul>
+  <li class="user-item" *ngFor="let user of users$">
+    <a routerLink="/details/{{user.id}}">{{ user.name }}</a>
+    <p>{{ user.email }}</p>
+    <a href="http://{{ user.website }}" target="_blank">{{ user.website }}</a>
   </li>
 </ul>

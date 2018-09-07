@@ -27,6 +27,7 @@ import { DataService } from './data.service';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     AppRoutingModule,
     HttpClientModule
 
